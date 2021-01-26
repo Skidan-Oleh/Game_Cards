@@ -9,13 +9,12 @@
     display: flex;
     background-color: #30D5C8;
     align-items: center;
-    padding-right: 150px;
-    padding-bottom: 125px;
+    padding-bottom: 250px;
 }
 
 .game {
     width: 450px;
-    height: 450px;
+    height: 350px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -30,7 +29,7 @@
 .game-card {
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);
-    margin: 5px;
+    margin: 3px;
     transform: scale(1);
     position: relative;
     transition: transform 0.4s;
@@ -40,9 +39,9 @@
 .front-face, .back-face {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #1c7ccc;
     backface-visibility: hidden;
 }
@@ -52,14 +51,14 @@
 }
 
 .bnt-gameReset {
-    width: 150px;
-    height: 75px;
+    width: 75px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
     background-color: red;
-    font-size: 23px;
+    font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
     border: 3px solid #008CBA;
@@ -71,3 +70,4 @@
     color: black; 
     border: 2px solid #008CBA;
 }
+
