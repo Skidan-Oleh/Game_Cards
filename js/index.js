@@ -1,4 +1,5 @@
 const cards = document.querySelectorAll(".game-card");
+// console.log(cards, 'Cards');
 
 let hasFlippedCard = false;
 let boardLocked = false;

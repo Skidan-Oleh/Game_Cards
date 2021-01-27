@@ -7,14 +7,13 @@
 .conteiner {
     height: 100vh;
     display: flex;
-    background-color: #30D5C8;
+    background-color: hsl(175, 66%, 51%);
     align-items: center;
-    padding-bottom: 250px;
 }
 
 .game {
-    width: 450px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -27,8 +26,8 @@
 }
 
 .game-card {
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
+    width: calc(25% - 6px);
+    height: calc(25% - 6px);
     margin: 3px;
     transform: scale(1);
     position: relative;
