@@ -15,9 +15,13 @@ const flipCard = e => {
     target.classList.add("flip");
 
     if (!hasFlippedCard) {
+        // First click
+
         hasFlippedCard = true;
         firstCard = target;
     } else {
+        // second click
+
         hasFlippedCard = false;
         secondCard = target;
 
